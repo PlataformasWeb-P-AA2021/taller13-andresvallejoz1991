@@ -1,0 +1,168 @@
+/* manejo de las características de la etiqueta body*/
+
+body {
+  /*background: #FEFEFD;*/
+  background: #FEFEFD;
+
+}
+
+header {
+  background: #034275;
+  color: #FFF;
+  background-color: #034275;
+  padding: 1em;
+  width: 100%;
+  padding-bottom: 0.2em;
+}
+/* manejo de las características de la etiqueta table*/
+
+header img{
+  margin-top: 2em;
+  margin-left: 2em;
+}
+header h1{
+  margin-left: 1em;
+  
+}
+nav.top_menu ul{
+  border-bottom: 1px solid #034275;
+
+}
+
+li.listado a{
+  text-decoration: none;
+  color: #034275;
+  margin-left: 2em;
+}
+li.listado a:hover{
+ border-bottom: 1px solid #034275;
+}
+h3.numeros{
+  color: #000000;
+  margin-left: 2em;
+}
+section {
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+  border-bottom: 1px solid #000000;
+  
+}
+
+th:hover{
+  background-color: #034275;
+  color: white;
+}
+
+
+
+label {
+  padding: 12px 10px;
+}
+/* manejo de las características de las clases*/
+
+.colorceldsprintfa{
+  background: #9999FF;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.miformulario{
+  width: 100%;
+}
+
+.errorlist li {
+  color: red;
+}
+
+/*Menu */
+/*
+ Tomado de http://codigoprogramacion.com/cursos/html/como-hacer-un-menu-horizontal-con-html5-y-css3.html
+ */
+.top_menu ul
+{
+  list-style:none;
+  float:left;
+  padding: 5px;
+  width:95%;
+}
+
+.top_menu ul li
+{
+  float:left;
+  margin-right:10px;
+  margin-bottom:5px;
+  text: #FFF;
+
+}
+
+footer{
+  background: #034275;
+  color: #FFF;
+}
+
+/*
+  agregar dos columnas
+  tomado de:
+  https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01
+*/
+
+.wrapper-dos-columnas {
+  margin: 15px;
+  background-color: red;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.izquierda-column {
+  background-color: #FFF;
+  height: 200px;
+}
+
+.derecha-column {
+  background-color: #FFF;
+  height: 200px;
+}
+
+span.ted  b{
+  margin: auto;
+  text-align: center;
+  
+}
+span.ted  a{
+  
+  text-decoration: none;
+  color: #000000;
+
+  padding: 0.03em;
+}
+span.ted  a:hover{
+  border-bottom: 1px solid black;
+}
+td.nombre{
+  text-align: center;
+  margin: auto;
+}
+
+/* fin dos columnas*/
+footer {
+  text-align: center;
+  padding: 1em;
+  width: 100%;
+}
